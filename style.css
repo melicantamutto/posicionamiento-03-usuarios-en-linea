@@ -1,0 +1,25 @@
+body{
+    background-color: lightskyblue;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgb(177, 175, 175);
+    background-color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 0.3em 1em;
+    border: 1px solid lightgray;
+    border-radius: 100px;
+}
+.green-dot{
+    border-radius: 100px;
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    margin-right: 1em;
+}
